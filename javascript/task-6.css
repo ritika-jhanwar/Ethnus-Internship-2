@@ -2,8 +2,25 @@ body {
     display: grid;
     place-content: center;
 }
+.logo{
+    margin-top: 0px;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+    padding-block: 0px;
+}
+.img-box{
+    background-color: #dedbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.6rem;
+    width: 3rem;
+}
 .form {
     width: 25rem;
+    margin-top: 5rem;
     min-height: 30rem;
     min-width: fit-content;
     background-color: #f7f7f7;
@@ -15,7 +32,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    row-gap: 3px;
+    row-gap: 2px;
 }
 a {
     text-decoration: none;
@@ -28,10 +45,13 @@ a {
     border: 1px solid whitesmoke;
 }     
 .username, .password {
-    /* height: 3rem; */
     display: flex;
     align-items: center;
+    margin-block: 0.8rem;
 }      
+.password{
+    margin-bottom: 1.6rem;
+}
 .primary {
     border: none;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
@@ -41,10 +61,11 @@ a {
     text-align: center;
     width: 100%;
     border-radius: 5px;
-    width: 17rem;
+    width: 20rem;
     height: 3rem;
 }
 .rememberforgot {
+    margin-top: 0.7rem;
     width: 17rem;
     display: flex;
     align-items: center;
