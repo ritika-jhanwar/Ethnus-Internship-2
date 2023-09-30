@@ -1,0 +1,41 @@
+* {
+    font-size: medium;
+  }
+  body {
+    display: grid;
+    place-content: center;
+  }
+  table {
+    background: rgb(219, 133, 180);
+    background: linear-gradient(
+      0deg,
+      rgba(219, 133, 180, 1) 12%,
+      rgba(240, 213, 191, 1) 74%,
+      rgba(244, 247, 196, 1) 100%
+    );
+    padding: 1rem 3rem;
+    width: 45rem;
+    height: 40rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  label {
+    font-weight: bold;
+  }
+  input {
+    width: 70%;
+  }
+  button {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: red;
+    padding-inline: 1rem;
+    color: white;
+    font-weight: bold;
+  }
+  #button {
+      text-align: center;
+  }
+  .error{
+    color: red;
+  }
